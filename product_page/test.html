@@ -1,0 +1,199 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="chart.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>ittng.ru</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="left">
+                <div class="left-block">
+                    <div class="printer-name">Kyocera TK-1170</div>
+                    <img src="images/tk-1170.png" alt="">
+                    
+                </div>
+                
+                
+            </div>
+            <div class="right">
+                <div class="content-block">
+                    <div class="title-block">Совместимость</div>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/m2040.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/m2040.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="title-block">Перемещение по складам</div>
+                    <div class="select-block">
+                        <div class="active-sklad">АБК "Факел"</div>
+                        <div class="row-right"></div>
+                        <select name="" id="second-sklad">
+                            <option value="">Выберите склад</option>
+                            <option value="">Пром. база</option>
+                            <option value="">Т-ТНГ</option>
+                        </select>
+                    </div>
+                    <div class="title-block">Выдача товара по компаниям</div>
+                    <div class="statistic-block">
+                        <div class="grid">
+                            <div class="grid-row">
+                                <div class="title">Таманьнефтегаз</div>
+                                <div class="progress"><progress value="16" max="34"></progress></div>
+                                <div class="count">3</div>
+                            </div>
+                            <div class="grid-row">
+                                <div class="title">ОТЭКО-Терминал</div>
+                                <div class="progress"><progress value="16" max="34"></progress></div>
+                                <div class="count">3</div>
+                            </div>
+                            <div class="grid-row">
+                                <div class="title">ОТЭКО-Терминал</div>
+                                <div class="progress"><progress value="16" max="34"></progress></div>
+                                <div class="count">3</div>
+                            </div>
+                            <div class="grid-row">
+                                <div class="title">ОТЭКО-Терминал</div>
+                                <div class="progress"><progress value="16" max="34"></progress></div>
+                                <div class="count">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-left">
+        <div class="logo-block"></div>
+        <div class="nav-links">
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon" style="background-image: url(images/bar-chart.png);" ></div>
+                    <div class="link-text">Статистика</div>
+                </div>
+            </div>
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon" style="background-image: url(images/blank-page.png);"></div>
+                    <div class="link-text">Страницы</div>
+                </div>
+                <div class="nav-col-right"></div>
+            </div>
+            <div class="navbar-collapse">
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">История</div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Склад</div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Принтеры</div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon" style="background-image: url(images/setting.png);"></div>
+                    <div class="link-text">Настройки</div>
+                </div>
+                <div class="nav-col-right"></div>
+            </div>
+            <div class="navbar-collapse">
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Товары</div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Принтеры</div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon"></div>
+                    <div class="link-text">Справочник</div>
+                </div>
+                <div class="nav-col-right"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <div class="container-fluid">
+                <div class="header-body">
+                    <div class="row-flex">
+                        <div class="col-header">
+                            <div class="col-text">Просмотр</div>
+                            <div class="col-text">Склад</div>
+                        </div>
+                        <div class="col-header">
+                            <div class="btn-primary">Добавить запись</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="container gap25 grid1">
+                <div class="column card section">
+                    <div class="section-btn">Все</div>
+                    <div class="section-btn">АБК "Факел"</div>
+                    <div class="section-btn">Т-ТНГ</div>
+                </div>
+            </div>
+            <div class="container gap25 grid1">
+                <div class="column card chart">
+                    <div class="title-row">
+                        <div class="title-text">Расходные материалы</div>
+                        <div class="title-control"></div>
+                    </div>
+                    <div class="table">
+                        <div class="table-header printers">
+                            <div class="col">#</div>
+                            <div class="col">Тип</div>
+                            <div class="col">Название</div>
+                            <div class="col">Производитель</div>
+                            <div class="col">Цвет</div>
+                            <div class="col">Ресурс</div>
+                            <div class="col">Цена</div>
+                            <div class="col">АБК "Факел"</div>
+                            <div class="col">Т-ТНГ</div>
+                            <div class="col">Пром. база</div>
+                            <div class="col">ГР</div>
+                        </div>
+                        <div class="table-body printers">
+                            <div class="col">1</div>
+                            <div class="col">Картридж</div>
+                            <div class="col">TK-1170</div>
+                            <div class="col">Kyocera</div>
+                            <div class="col">Черный</div>
+                            <div class="col">7000 стр.</div>
+                            <div class="col">9540 р.</div>
+                            <div class="col">11 шт.</div>
+                            <div class="col">4 шт.</div>
+                            <div class="col">7 шт.</div>
+                            <div class="col">2 шт.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

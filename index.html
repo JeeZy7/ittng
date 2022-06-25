@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <div class="navigation">
+            <div class="logo-block">
+                <img src="logo.svg" alt="" class="center-image">
+            </div>
+            <div class="menu-block">
+                <div class="nav-row">
+                    <div class="nav-row-icon"></div>
+                    <div class="nav-row-text">История</div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-row-icon"></div>
+                    <div class="nav-row-text">Склады</div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-row-icon"></div>
+                    <div class="nav-row-text">Принтеры</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-center">
+                <div class="page-top">
+                    <div class="page-top-nav"></div>
+                    <div class="page-top-filter">
+                        <div class="cell-block" id="cell-block1">
+                            <div class="cell">
+                                <div class="cell-title">Сортировка:</div>
+                                <div class="cell-input">
+                                    <select name="" id="">
+                                        <option value="">Недавние</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cell">
+                                <div class="cell-title">Фильтр:</div>
+                                <div class="cell-input">
+                                    <select name="" id="">
+                                        <option value="">Все</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cell">
+                                <div class="cell-title">Фильтр:</div>
+                                <div class="cell-input">
+                                    <select name="" id="">
+                                        <option value="">Все</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cell">
+                                <div class="cell-title">Фильтр:</div>
+                                <div class="cell-input">
+                                    <select name="" id="">
+                                        <option value="">Все</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-block" id="cell-block2">
+                            <div class="cell">
+                                <div class="cell-icon-btn"></div>
+                                <div class="cell-icon-btn"></div>
+                            </div>
+                            <div class="cell">
+                                <div class="cell-input">
+                                    <input type="text" placeholder="Поиск по названию">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-block" id="pixel-page-block">
+                    <!-- <div class="table-header">
+                        <div class="table-header-col">#</div>
+                        <div class="table-header-col">Наименование</div>
+                        <div class="table-header-col">Тип товара</div>
+                        <div class="table-header-col">Цвет</div>
+                        <div class="table-header-col">Производитель</div>
+                        <div class="table-header-col">Совместимость</div>
+                        <div class="table-header-col">• • •</div>
+                    </div> -->
+                    <div class="table-body" id="pixels-table-body">
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-8115c.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                        <div class="table-row-pixel">
+                            <div class="table-col-image">
+                                <img src="tk-1170.png" alt="" class="center-image">
+                            </div>
+                            <div class="table-col-title">Картридж TK-1170 (Черный)</div>
+                            <div class="table-col-text">Ресурс: 7000 стр.</div>
+                            <div class="table-col-text">Цена: 9200 р.</div>
+                            <div class="table-col-text">Совместимость: M2040DN,M2540DN,M2640IDW</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

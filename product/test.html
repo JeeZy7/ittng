@@ -1,0 +1,157 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="chart.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>ittng.ru</title>
+</head>
+<body>
+    <div class="nav-left">
+        <div class="logo-block"></div>
+        <div class="nav-links">
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon" style="background-image: url(images/bar-chart.png);" ></div>
+                    <div class="link-text">Статистика</div>
+                </div>
+            </div>
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon" style="background-image: url(images/blank-page.png);"></div>
+                    <div class="link-text">Страницы</div>
+                </div>
+                <div class="nav-col-right"></div>
+            </div>
+            <div class="navbar-collapse">
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">История</div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Склад</div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Принтеры</div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon" style="background-image: url(images/setting.png);"></div>
+                    <div class="link-text">Настройки</div>
+                </div>
+                <div class="nav-col-right"></div>
+            </div>
+            <div class="navbar-collapse">
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Товары</div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <div class="nav-col-left">
+                        <div class="link-text">Принтеры</div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-row">
+                <div class="nav-col-left">
+                    <div class="link-icon"></div>
+                    <div class="link-text">Справочник</div>
+                </div>
+                <div class="nav-col-right"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <div class="container-fluid">
+                <div class="header-body">
+                    <div class="row-flex">
+                        <div class="col-header">
+                            <div class="col-text">Просмотр</div>
+                            <div class="col-text">Добавление тового товара</div>
+                        </div>
+                        <div class="col-header">
+                            <div class="btn-primary">Изменение значений</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="container gap25 grid1">
+                <!-- <div class="column card block">
+                    <div class="title-row">
+                        <div class="title-text">KYOCERA TK-1170</div>
+                        <div class="title-control"></div>
+                    </div>
+                    <div class="body-row flex">
+                        <img src="images/tk-1170.png" alt="">
+                    </div>
+                </div> -->
+                <div class="column card block">
+                    <div class="title-row">
+                        <div class="title-text">Информация о товаре</div>
+                        <div class="title-control"></div>
+                    </div>
+                    <div class="body-row">
+                        <div class="printer-container-center">
+                            <div class="printer-container-col">
+                                <div class="printer-info-row">Название: <input type="text"></div>
+                                <div class="printer-info-row">Производитель:
+                                    <select name="" id="">
+                                        <option value="">Kyocera</option>
+                                        <option value="">HP</option>
+                                        <option value="">Canon</option>
+                                        <option value="">Epson</option>
+                                    </select>
+                                </div>
+                                <div class="printer-info-row">Тип товара:
+                                    <select name="" id="">
+                                        <option value="">Картридж</option>
+                                        <option value="">HP</option>
+                                        <option value="">Canon</option>
+                                        <option value="">Epson</option>
+                                    </select>
+                                </div>
+                                <div class="printer-info-row">Цвет тонера:
+                                    <select name="" id="">
+                                        <option value="">Черный</option>
+                                        <option value="">HP</option>
+                                        <option value="">Canon</option>
+                                        <option value="">Epson</option>
+                                    </select>
+                                </div>
+                                <div class="printer-info-row">Ресурс: <input type="text"></div>
+                                <div class="printer-info-row">Цена: <input type="text"></div>
+                                <div class="printer-info-row">Тип принтера:
+                                    <select name="" id="">
+                                        <option value="">Принтер</option>
+                                        <option value="">МФУ</option>
+                                    </select>
+                                </div>
+                                <div class="printer-info-row">Совместимость: <input type="text" id="comp_input"></div>
+                            </div>
+                            <div class="printer-container-col">
+                                
+                            </div>
+                        </div>
+                        <div class="printer-container-center">
+                            <input type="file" name="filename" size="10" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
